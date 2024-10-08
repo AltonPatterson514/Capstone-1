@@ -1,0 +1,33 @@
+h1{
+    color:white;
+}
+
+.how label{
+    display: block;
+}
+
+input{
+    display: block;
+}
+
+input[type=radio]{
+    display: inline-block;
+}
+@media (max-width: 992px) {}
+    body {
+      overflow: auto;
+      background: url(../images/lambo.webp) center / cover;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--primary-color);
+        overflow-y: scroll;
+        background: url(../images/lambo.webp) center / cover;
+      }
+    label{
+        color: white;
+    }
+    legend{
+        color: white;
+    }

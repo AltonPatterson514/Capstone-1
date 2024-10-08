@@ -1,0 +1,36 @@
+.navbar-brand img {
+    height: 48px;
+}
+#splash{
+    /* width: 45vh; */
+    height: 40vh;
+    margin: auto;
+    display:block;
+}
+main{
+    /* text-align: center;  */
+    padding: 1rem;
+    width: 100%;
+}
+h1{
+    color: white;
+}
+@media (max-width: 992px) {}
+    body {
+      overflow: auto;
+      background: url(../images/lambo.webp) center / cover;
+    }
+    p{
+        color: white;
+    }
+    li{
+        color: white;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--primary-color);
+        overflow-y: scroll;
+        background: url(../images/lambo.webp) center / cover;
+      }
+      
